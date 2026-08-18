@@ -153,4 +153,4 @@ INTERNAL_IPS = [
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 DEFAULT_CHARSET = 'utf-8'
 AUTH_USER_MODEL ='users.User'
-
+LOGIN_URL = '/user/login/'
